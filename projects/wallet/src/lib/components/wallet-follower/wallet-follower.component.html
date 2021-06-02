@@ -1,0 +1,10 @@
+<iframe
+  style="width: inherit"
+  *ngIf="walletUrl"
+  id="fun-wallet-follower"
+  (load)="followerLoaded()"
+  [src]="walletUrl | safe"
+  is-fun-wallet="true"
+  is-follower="true"
+  frameBorder="0"
+></iframe>

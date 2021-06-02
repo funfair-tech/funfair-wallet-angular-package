@@ -1,0 +1,26 @@
+{
+  "name": "@funfair-tech/wallet-angular",
+  "version": "1.1.4",
+  "description": "Components for hooking the wallet into a angular project",
+  "peerDependencies": {
+    "@angular/common": ">=9.0.7",
+    "@angular/core": ">=9.0.7",
+    "tslib": ">=1.10.0",
+    "@funfair-tech/wallet-sdk": ">=3.0.3"
+  },
+  "scripts": {
+    "build": "ng build --prod",
+    "publish": "npm run build && cd ../../dist/wallet && npm publish --access public"
+  },
+  "author": "FunFair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funfair-tech/fun-wallet-docs/issues"
+  },
+  "homepage": "https://github.com/funfair-tech/fun-wallet-docs#readme",
+  "keywords": [
+    "sdk",
+    "ethereum",
+    "blockchain"
+  ]
+}
